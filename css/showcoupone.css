@@ -7,9 +7,9 @@
 }
 
 #show-cop {
+    /*background-color: #C44578;*/
     font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
-    background-color: #C44578;
     padding: 20px;
     color: white;
 }
@@ -17,8 +17,6 @@
 #show-cop .line2 {
     display: table;
     margin: 0 auto;
-    1width: 50%;
-    1margin: 0 auto;
 }
 
 #show-cop .line21 {

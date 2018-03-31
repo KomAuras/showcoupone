@@ -4,9 +4,14 @@ $(document).ready(function () {
     var $div = document.getElementById("show-cop");
     // rgb vals of the gradients
     var gradients = [
+        // {start: [196, 69, 120], stop: [196, 69, 120]},
         {start: [128, 179, 171], stop: [30, 41, 58]},
         {start: [255, 207, 160], stop: [234, 92, 68]},
-        {start: [212, 121, 121], stop: [130, 105, 151]}
+        {start: [212, 121, 121], stop: [250, 50, 15]},
+        {start: [255, 207, 160], stop: [130, 105, 151]},
+        // {start: [128, 179, 171], stop: [30, 41, 58]},
+        // {start: [255, 207, 160], stop: [234, 92, 68]},
+        // {start: [212, 121, 121], stop: [130, 105, 151]}
     ];
     // how long for each transition
     var transition_time = 2;
