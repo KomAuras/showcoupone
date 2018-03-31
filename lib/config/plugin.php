@@ -10,5 +10,6 @@ return array(
     'frontend' => true,
     'handlers' => array(
         'frontend_cart' => 'frontendCart',
+        'frontend_product' => 'frontendProduct',
     )
 );
