@@ -55,7 +55,7 @@ class shopShowcouponePlugin extends shopPlugin
         	'title_suffix'  => "",
 	        'action_button' => "",
     	    'action_link'   => "",
-        	'info_section'  => "<div style=\"background-color: #C44578;padding: 10px;color: white;font-size: 18px;\">Выдать клиенту купон на сумму: <span>{$total}</span> <span class=\"ruble\">Р</span></div>",
+        	'info_section'  => "<div style=\"background-color:#C44578;margin-bottom:10px;padding:10px;color:white;font-size: 18px;\">Выдать клиенту купон на сумму: <span>{$total}</span> <span class=\"ruble\">Р</span></div>",
 	    );
     }
 
