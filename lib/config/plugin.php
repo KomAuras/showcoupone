@@ -11,5 +11,6 @@ return array(
     'handlers' => array(
         'frontend_cart' => 'frontendCart',
         'frontend_product' => 'frontendProduct',
+        'backend_order' => 'backendOrder',
     )
 );

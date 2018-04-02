@@ -9,6 +9,29 @@ class shopShowcouponePlugin extends shopPlugin
         return "";
     }
 
+    public function backendOrder()
+    {
+		/*
+		$id_order = isset($_GET['id']) ? (int)$_GET['id'] : 0;
+		if ($id_order)
+		{
+			$order_model = new shopOrderModel();
+			$order = $order_model->getById($id_order);
+			$order_items_model = new shopOrderItemsModel();
+			$items = $order_items_model->getItems($id_order);
+			echo "<pre>";
+			print_r($items);
+			echo "</pre>";
+		}
+		*/
+    	return array(
+        	'title_suffix'  => "",
+	        'action_button' => "",
+    	    'action_link'   => "",
+        	'info_section'  => "",
+	    );
+    }
+
     public function frontendProduct()
     {
         $this->addJs('js/showcoupone.js');
